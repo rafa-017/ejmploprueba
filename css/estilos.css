@@ -438,3 +438,21 @@ body{
     height: 80px;
     margin: 10px;
 }
+
+
+.pago .titulo__pago{
+    background: darksalmon;
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+
+}
+.tipos__pago{
+    background: cornflowerblue;
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    
+}
