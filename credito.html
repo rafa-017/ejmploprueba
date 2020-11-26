@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +9,22 @@
 <body>
     <section class="tarjeta__credito">
         <div class="contenedor">
-            <form action=""></form>
+            
             <h1 class="credito__titulo">Ingresa tus datos</h1>
+            <h3 class="credito_subtitulo">Tarjeta de credito</h3>
             <form action="" class="datos__from">
                 <ul>
                     <li>
                         <label for="" class="datos__label">Datos tarjeta</label>
-                        <input type="text" id="datos__tarjeta" name="datos" class="datos__input" autocomplete="off" required>
+                        <input type="number" id="datos__tarjeta" name="datosTarjeta" class="datos__input" autocomplete="off" required>
                     </li>
                     <li>
                         <label for="" class="datos__label">Fecha de expiracion</label>
-                        <input type="text" id="fecha__expiracion" name="datos" class="datos__input" autocomplete="off" required>  
+                        <input type="number" id="fecha__expiracion" name="fechaExpiracion" class="datos__input" autocomplete="off" required>  
                     </li>
                     <li>
                         <label for="" class="datos__label">Dijitos de seguridad</label>
-                        <input type="text" name="datos" id="dejitos__seguridad" class="datos__input" autocomplete="off" required>
+                        <input type="number" name="digitosSeuridad" id="dejitos__seguridad" class="datos__input" autocomplete="off" required>
                     </li>
                 </ul>
                 <button type="submit" class="btn__credito">Pagar</button>
@@ -32,12 +33,12 @@
         </div>
     </section>
     <section class="foot"> 
-        <div class="accion">
+        <div>
             <a href="tipopago.html"><img src="img/volver.png" class="btn__accion"></a>
-        </div>
-        <div class="accion">
             <a href="index.html"><img src="img/btn menuprincipal.jpg" class="btn__accion"></a>
         </div>
     </section>
+</body>
+</html>
 </body>
 </html>
