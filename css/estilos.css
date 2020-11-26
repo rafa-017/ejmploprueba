@@ -440,7 +440,7 @@ body{
 }
 
 
-.pago .titulo__pago{
+.pago{
     background: darksalmon;
     color: #333333;
     text-align: center;
@@ -455,4 +455,91 @@ body{
     padding: 15px;
     font-size: 30px;
     
+}
+.tipos__pago .tipo__tarjeta{
+    padding: 40px;
+
+    
+}
+.tipos__pago .boton__tarjeta{
+        border-radius: 10px;
+        width: 300px;
+        height: 80px;
+        margin: 10px;
+    
+}
+.pie{
+    background: darkseagreen;
+    text-align: center;
+    padding: 16px;
+
+}
+.pie .btn_opcion{
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+
+ }
+
+
+ .tarjeta__credito{
+    background: lightsalmon;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+ }
+ .tarjeta__credito .credito__titulo{
+     font-size: 40px;
+     padding: 35px;
+ }
+ .tarjeta__credito .datos__from{
+    padding: 30px;
+    margin: auto;
+    width: 95%;
+    max-width: 425px; 
+    
+    
+}
+.tarjeta__credito .datos__label{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    margin-top: -40px;
+    
+    padding-left: 15px;
+}
+.tarjeta__credito .datos__input{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    background: rgba(51, 51, 51, 0.4);
+    color: #ffffff;
+}
+.tarjeta__credito .btn__credito{
+    font-size: 15px;
+    background: rgba(0, 0, 0,  0.6);
+    margin: 20px;
+     width: 80%;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.foot{
+    background: gray;
+    padding: 15px;
+    overflow: hidden;
+}
+.foot .btn__accion{
+    
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
