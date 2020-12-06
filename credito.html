@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/validacion.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
             
             <h1 class="credito__titulo">Ingresa tus datos</h1>
             <h3 class="credito_subtitulo">Tarjeta de credito</h3>
-            <form action="" class="datos__from">
+            <form method="POST" action="credito.php" class="datos__from" onsubmit="return validando();"> 
                 <ul>
                     <li>
                         <label for="" class="datos__label">Datos tarjeta</label>
@@ -38,7 +39,5 @@
             <a href="index.html"><img src="img/btn menuprincipal.jpg" class="btn__accion"></a>
         </div>
     </section>
-</body>
-</html>
 </body>
 </html>
